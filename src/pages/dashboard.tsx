@@ -70,7 +70,7 @@ export default function Dashboard() {
               my="6"
               maxWidth={1480}
               mx="auto"
-              px="16"
+              px="6"
             >
                 <Sidebar />
 
