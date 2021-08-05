@@ -16,7 +16,7 @@ export function SidebarDrawerProvider({children}: SidebarDrawerProviderProps) {
     const router = useRouter();
 
     useEffect(()=> {
-        disclousure.onClose();
+        disclousure.onClose();  
     }, [router.asPath]);
     return(
         <SidebarDrawerContext.Provider value={disclousure}>
