@@ -53,6 +53,7 @@ export function makeSeerver() {
                     { users }
                 )
             });
+            this.get('/users/:id')
             this.post('/users');
 
             this.namespace = '';
